@@ -68,3 +68,11 @@ export PATH=$PATH:"/c/Program Files/Go/bin":$GOPATH/bin
 
 ---
 *Note: After installing, you may need to restart your terminal for the changes to take effect.*
+
+## Projects & Roadmap
+
+This repository is organized by branches, each containing a different project or stage of the learning path:
+
+| Project | Branch | Description |
+| :--- | :--- | :--- |
+| **Hello World** | [1_hello-world](https://github.com/diegograssino/golang/tree/1_hello-world) | Basic "Hello World" implementation using the Google UUID package. |
