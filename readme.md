@@ -2,7 +2,7 @@
 
 This guide provides instructions for setting up the Go development environment and installing necessary tools.
 
-## Quick Setup
+## Quick Setup (If you don't want to read it all)
 
 ### 1. Install Antigravity IDE
 
@@ -50,7 +50,9 @@ echo -e '\nexport GOPATH=$HOME/go\nexport PATH=$PATH:"/c/Program Files/Go/bin":$
 
 ---
 
-## 1. Installing Go
+## Step-by-Step Setup
+
+### 1. Installing Go
 
 ### macOS
 
@@ -70,7 +72,7 @@ Using winget (in Bash/Git Bash):
 winget install GoLang.Go
 ```
 
-## 2. Installing Development Tools
+### 2. Installing Development Tools
 
 Run the following commands in your terminal (Bash) to install the required tools for an enhanced Go development experience:
 
@@ -100,7 +102,7 @@ go install github.com/go-delve/delve/cmd/dlv@latest
 go install honnef.co/go/tools/cmd/staticcheck@latest
 ```
 
-## 3. Environment Configuration
+### 3. Environment Configuration
 
 Ensure that your Go binary path and tool binary path are added to your shell's configuration (e.g., `.bashrc`, `.zshrc`, or Windows Environment Variables).
 
@@ -122,7 +124,7 @@ echo 'export GOPATH=$HOME/go' >> ~/.bash_profile
 echo 'export PATH=$PATH:"/c/Program Files/Go/bin":$GOPATH/bin' >> ~/.bash_profile
 ```
 
-## 4. IDE Profile Setup (VS Code, Antigravity & Cursor)
+### 4. IDE Profile Setup (VS Code, Antigravity & Cursor)
 
 For a fully optimized Go development experience, you can import the custom **Golang IDE Profile**. This profile contains custom themes, formatting rules, UI preferences, and only the essential extensions for Go (without any frontend clutter).
 
