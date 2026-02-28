@@ -1,14 +1,14 @@
-# Go Learning Path & Master Repository
+# Learning Go Through Projects
 
-Welcome to our structured Go programming roadmap! This repository serves as a progressive learning path for mastering Go, featuring an automated development workspace configuration and isolated challenge-based projects.
+Welcome to this repository for learning the Go programming language through practical, isolated projects!
 
-Each core concept is organized into its own numbered directory. Inside each directory, you'll find a dedicated `readme.md` acting as a prompt with strict requirements—allowing you (or others) to reconstruct the projects from scratch as interactive coding exercises!
+Each core concept is organized into its own numbered directory. Inside each directory, you'll find a `readme.md` file that provides a description of the project and the requirements needed to construct it from scratch for learning purposes.
 
 ## Quick Setup (If you don't want to read it all)
 
 ### 1. Install Antigravity IDE
 
-If you don't already have the Antigravity IDE installed, install it first:
+If you don't already have an IDE installed, we highly recommend setting up **Antigravity** (though you can use VS Code, Cursor, or any specialized editor of your taste!):
 
 **macOS:**
 ```bash
@@ -52,7 +52,17 @@ echo -e '\nexport GOPATH=$HOME/go\nexport PATH=$PATH:"/c/Program Files/Go/bin":$
 
 ---
 
-## Step-by-Step Setup
+## Projects & Roadmap
+
+This repository is organized by folders, each containing a different project or stage of the learning path:
+
+| Project         | Folder        | Description                                                       | Run Command |
+| :-------------- | :------------ | :---------------------------------------------------------------- | :---------- |
+| **Hello Golang** | [1_hello-golang](./1_hello-golang) | Basic "Hello Golang" implementation using the Google UUID package. | `cd 1_hello-golang && go run .` |
+
+---
+
+## Step-by-Step Setup (if you want to see detail of what are you doing)
 
 ### 1. Installing Go
 
@@ -156,11 +166,3 @@ brew install --cask font-code-new-roman-nerd-font
 ---
 
 _Note: After installing, you may need to restart your terminal for the changes to take effect._
-
-## Projects & Roadmap
-
-This repository is organized by folders, each containing a different project or stage of the learning path:
-
-| Project         | Folder        | Description                                                       | Run Command |
-| :-------------- | :------------ | :---------------------------------------------------------------- | :---------- |
-| **Hello Golang** | [1_hello-golang](./1_hello-golang) | Basic "Hello Golang" implementation using the Google UUID package. | `cd 1_hello-golang && go run .` |

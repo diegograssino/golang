@@ -1,10 +1,10 @@
 # Hello Golang
 
-## Concept Goal
-The goal of this project is to understand the absolute basics of a Go application: defining an entry point, using the standard library for output, and importing and calling an external third-party package for the first time.
+## Description
+This project demonstrates the absolute basics of a Go application: defining an entry point, using the standard library for output, and importing and calling an external third-party package for the first time.
 
-## Exercise Requirements
-To recreate this project from scratch as a learning exercise:
+## Requirements
+To reconstruct this project from scratch:
 
 1. Create a `main.go` file inside this folder.
 2. Initialize the file with the strict `main` package declaration.
