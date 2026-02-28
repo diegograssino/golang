@@ -1,6 +1,8 @@
-# Go Project Setup
+# Go Learning Path & Master Repository
 
-This guide provides instructions for setting up the Go development environment and installing necessary tools.
+Welcome to our structured Go programming roadmap! This repository serves as a progressive learning path for mastering Go, featuring an automated development workspace configuration and isolated challenge-based projects.
+
+Each core concept is organized into its own numbered directory. Inside each directory, you'll find a dedicated `readme.md` acting as a prompt with strict requirements—allowing you (or others) to reconstruct the projects from scratch as interactive coding exercises!
 
 ## Quick Setup (If you don't want to read it all)
 
@@ -161,4 +163,4 @@ This repository is organized by folders, each containing a different project or 
 
 | Project         | Folder        | Description                                                       | Run Command |
 | :-------------- | :------------ | :---------------------------------------------------------------- | :---------- |
-| **Hello World** | [1_hello-world](./1_hello-world) | Basic "Hello World" implementation using the Google UUID package. | `cd 1_hello-world && go run .` |
+| **Hello Golang** | [1_hello-golang](./1_hello-golang) | Basic "Hello Golang" implementation using the Google UUID package. | `cd 1_hello-golang && go run .` |

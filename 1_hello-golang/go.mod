@@ -1,4 +1,4 @@
-module github.com/diegograssino/golang.git
+module 1_hello-golang
 
 go 1.25.0
 
