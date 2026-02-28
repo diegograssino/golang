@@ -157,8 +157,8 @@ _Note: After installing, you may need to restart your terminal for the changes t
 
 ## Projects & Roadmap
 
-This repository is organized by branches, each containing a different project or stage of the learning path:
+This repository is organized by folders, each containing a different project or stage of the learning path:
 
-| Project         | Branch                                                                      | Description                                                       |
-| :-------------- | :-------------------------------------------------------------------------- | :---------------------------------------------------------------- |
-| **Hello World** | [1_hello-world](https://github.com/diegograssino/golang/tree/1_hello-world) | Basic "Hello World" implementation using the Google UUID package. |
+| Project         | Folder        | Description                                                       | Run Command |
+| :-------------- | :------------ | :---------------------------------------------------------------- | :---------- |
+| **Hello World** | [1_hello-world](./1_hello-world) | Basic "Hello World" implementation using the Google UUID package. | `cd 1_hello-world && go run .` |
